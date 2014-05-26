@@ -1,4 +1,0 @@
-Installation
--------------
-    $ sudo pkg install haproxy python curl
-

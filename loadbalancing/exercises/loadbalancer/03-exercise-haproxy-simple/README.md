@@ -8,8 +8,10 @@ Layer4:
 ======
 
 Open a terminal and execute:
+```sh
  $ cd layer4
  $ ls
+```
 
 Then for each of the sub directories (example: 01-simple-rr-lb)
 * Change dir to it.
@@ -18,6 +20,7 @@ Then for each of the sub directories (example: 01-simple-rr-lb)
 * Test with your browser
 
 Incantation:
+```sh
  $ cd subdir
  $ sh runme.sh &
  $ sh test.sh
@@ -25,6 +28,7 @@ Incantation:
  # When you are done, kill the lb
  $ bg
  $ kill %1
+```
 
  
 
@@ -33,8 +37,10 @@ Layer7:
 ======
 
 Open a terminal and execute:
+```sh
  $ cd layer7
  $ ls
+```
 
 Then for each of the sub directories (example: 01-simple-rr-lb)
 * Change dir to it.
@@ -43,6 +49,7 @@ Then for each of the sub directories (example: 01-simple-rr-lb)
 * Test with your browser
 
 Incantation:
+```sh
  $ cd subdir
  $ sh runme.sh &
  $ sh test.sh
@@ -50,3 +57,4 @@ Incantation:
  # When you are done, kill the lb
  $ bg
  $ kill %1
+```

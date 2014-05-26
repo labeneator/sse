@@ -4,4 +4,6 @@ Installation of required packages.
 
 Howto
 -----
-Read the file 01-install-haproxy.txt
+```sh
+    $ sudo pkg install haproxy python curl
+```
